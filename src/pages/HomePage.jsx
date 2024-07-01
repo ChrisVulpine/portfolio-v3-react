@@ -3,23 +3,36 @@
 import { Link } from 'react-router-dom';
 import Project from '../components/Project/Project';
 
+import marvelVsImg from '../assets/img/marvel-vs.png';
+import weatherDashImg from '../assets/img/weather-dash.png';
+import schedulerImg from '../assets/img/scheduler.png';
+import HeroImg from '../assets/img/4.png';
+
+import HtmlImg from '../assets/img/icons8-html-5.svg';
+import CssImg from '../assets/img/icons8-css3.svg';
+import JsImg from '../assets/img/icons8-javascript.svg';
+import BootImg from '../assets/img/icons8-bootstrap.svg';
+import GitImg from '../assets/img/icons8-git.svg';
+import ReactImg from '../assets/react.svg';
+
+
 const projects = [
   {
     title: 'Marvel Versus',
     description: 'Our team created a new Marvel game! Players can form teams of their favorite characters to battle The Collector. ',
-    image: './src/assets/img/marvel-vs.png',
+    image: marvelVsImg,
     link: 'https://katherine-be.github.io/Marvel-Versus/',
   },
   {
     title: 'Weather Dashboard',
     description: 'I created a weather dashboard using OpenWeather API to display current weather and a 5-day forecast for any searched location.',
-    image: 'src/assets/img/weather-dash.png',
+    image: weatherDashImg,
     link: 'https://chrisvulpine.github.io/weather-dashboard/',
   },
   {
     title: 'Work Day Scheduler',
     description: 'I created a calendar application that allows a user to schedule events from the hours of 9:00am-6:00pm.',
-    image: 'src/assets/img/scheduler.png',
+    image: schedulerImg,
     link: 'https://chrisvulpine.github.io/work-day-scheduler/',
   },
 ];
@@ -30,7 +43,7 @@ export default function HomePage() {
         <>
     <section className="hero" id="about">
       <img
-        src="./src/assets/img/4.png"
+        src= { HeroImg }
         alt="hero-image"
       />
       <div className="bio animate__animated animate__shakeX">
@@ -55,19 +68,19 @@ export default function HomePage() {
       <div className="skills-wrapper">
         <div className="first-set animate__animated animate__pulse">
           <img
-            src="/src/assets/img/icons8-html-5.svg"
+            src={HtmlImg}
             alt=""
             loading="lazy"
             className="icon icon-card"
           />
           <img
-            src="/src/assets/img/icons8-css3.svg"
+            src={CssImg}
             alt=""
             loading="lazy"
             className="icon icon-card"
           />
           <img
-            src="/src/assets/img/icons8-javascript.svg"
+            src={JsImg}
             alt=""
             loading="lazy"
             className="icon icon-card"
@@ -77,19 +90,19 @@ export default function HomePage() {
         <div className="">
             
           <img
-            src="/src/assets/react.svg"
+            src={ReactImg}
             alt=""
             loading="lazy"
             className="icon icon-card logo react logo-spin"
           />
           <img
-            src="/src/assets/img/icons8-bootstrap.svg"
+            src={BootImg}
             alt=""
             loading="lazy"
             className="icon icon-card"
           />
           <img
-            src="/src/assets/img/icons8-git.svg"
+            src={GitImg}
             alt=""
             loading="lazy"
             className="icon icon-card"
