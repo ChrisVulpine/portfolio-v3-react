@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -30,7 +29,10 @@ const ContactForm = () => {
   };
 
   return (
-    <form className="contact-form" onSubmit={handleSubmit}>
+    <>
+    <h2 className="form-alert">This form is currently under construction!</h2>
+    <p>Please use one of the methods at the bottom of the page to contact me</p>
+    <form className="contact-page-form" onSubmit={handleSubmit}>
       <div className="form-group">
         <label htmlFor="name">Name</label>
         <input
@@ -65,6 +67,7 @@ const ContactForm = () => {
       </div>
       <button type="submit">Submit</button>
     </form>
+    </>
   );
 };
 

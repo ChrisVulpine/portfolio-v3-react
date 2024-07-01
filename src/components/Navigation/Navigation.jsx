@@ -61,7 +61,7 @@ return(
 </ul>
 <button className="burger-menu" id="burger-menu">
 <ion-icon class="bars" name="menu-outline"></ion-icon>
-<ion-icon class="times" name="close-outline"></ion-icon>
+{/* <ion-icon class="times" name="close-outline"></ion-icon> */}
 </button>
 </nav>
 );
