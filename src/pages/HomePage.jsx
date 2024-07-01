@@ -7,7 +7,7 @@ const projects = [
   {
     title: 'Marvel Versus',
     description: 'Our team created a new Marvel game! Players can form teams of their favorite characters to battle The Collector. ',
-    image: 'src/assets/img/marvel-vs.png',
+    image: './src/assets/img/marvel-vs.png',
     link: 'https://katherine-be.github.io/Marvel-Versus/',
   },
   {
