@@ -368,7 +368,17 @@ button[type="submit"]:hover {
   background-color: #ec7804;
 }
 
+
+.bottom-text {
+  padding-top: 50px;
+}
+
 /* Social buttons */
+
+.contact-link {
+  text-decoration: none;
+  padding: 5px;
+}
 
 .socials {
   display: flex;

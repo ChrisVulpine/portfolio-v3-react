@@ -125,12 +125,6 @@ export default function HomePage() {
       <br>
       </br>
       <p> Use my <Link className="nav-link" to="/contact">Contact Form</Link> or the methods below!</p>
-      <div className="contact-form-container">
-        <div className="contact-form">
-          <p>chrisleach1191@gmail.com || 704-836-7080 || GitHub: ChrisVulpine</p>
-         
-        </div>
-      </div>
     </section>
 
 
