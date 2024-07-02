@@ -6,14 +6,13 @@ import Project from '../components/Project/Project';
 import marvelVsImg from '../assets/img/marvel-vs.png';
 import weatherDashImg from '../assets/img/weather-dash.png';
 import schedulerImg from '../assets/img/scheduler.png';
+import employeeImg from '../assets/img/employee-tracker.png';
+import jsquizImg from '../assets/img/js-quiz.png';
+import ecommImg from '../assets/img/ecom-backend.png';
 import HeroImg from '../assets/img/4.png';
 
-import HtmlImg from '../assets/img/icons8-html-5.svg';
-import CssImg from '../assets/img/icons8-css3.svg';
-import JsImg from '../assets/img/icons8-javascript.svg';
-import BootImg from '../assets/img/icons8-bootstrap.svg';
-import GitImg from '../assets/img/icons8-git.svg';
-import ReactImg from '../assets/react.svg';
+
+
 
 
 const projects = [
@@ -34,6 +33,24 @@ const projects = [
     description: 'I created a calendar application that allows a user to schedule events from the hours of 9:00am-6:00pm.',
     image: schedulerImg,
     link: 'https://chrisvulpine.github.io/work-day-scheduler/',
+  },
+  {
+    title: 'Employee Tracker',
+    description: 'This CMS was created to help companies keep track of their entire employee base in a CLI application.',
+    image: employeeImg,
+    link: 'https://github.com/ChrisVulpine/employee-tracker',
+  },
+  {
+    title: 'JavaScript Quiz',
+    description: 'This is a timed JavaScript Quiz to learn the basics of JavaScript using basic HTML, CSS, and JS.',
+    image: jsquizImg,
+    link: 'https://chrisvulpine.github.io/javascript-quiz/',
+  },
+  {
+    title: 'eCommerce Backend',
+    description: 'This is a functioning backend for an e-commerce website. The backend takes a working Express.js API and configures it to use Sequelize in order to interact with a MySQL database. It includes routes for categories, products, and tags.',
+    image: ecommImg,
+    link: 'https://github.com/ChrisVulpine/e-commerce-backend',
   },
 ];
 
@@ -59,56 +76,6 @@ export default function HomePage() {
       <p>
         Now it is 2024, and I decided to pursue a passion I never really knew I had. Gaming has been part of my life since I could hold a controller. It all began with a red-hatted Italian plumber. I stumbled into coding years ago and had fun with it, but it wasn't until I looked back at it in January 2024 that a love for coding and development set in.
         </p>
-    </section>
-
-
-    <section className="skills fade-in-section" id="skills">
-      <h2 className="skill-header">My Top Skills</h2>
-
-      <div className="skills-wrapper">
-        <div className="first-set animate__animated animate__pulse">
-          <img
-            src={HtmlImg}
-            alt=""
-            loading="lazy"
-            className="icon icon-card"
-          />
-          <img
-            src={CssImg}
-            alt=""
-            loading="lazy"
-            className="icon icon-card"
-          />
-          <img
-            src={JsImg}
-            alt=""
-            loading="lazy"
-            className="icon icon-card"
-          />
-        </div>
-
-        <div className="">
-            
-          <img
-            src={ReactImg}
-            alt=""
-            loading="lazy"
-            className="icon icon-card logo react logo-spin"
-          />
-          <img
-            src={BootImg}
-            alt=""
-            loading="lazy"
-            className="icon icon-card"
-          />
-          <img
-            src={GitImg}
-            alt=""
-            loading="lazy"
-            className="icon icon-card"
-          />
-        </div>
-      </div>
     </section>
 
 

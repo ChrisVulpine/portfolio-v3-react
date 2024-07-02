@@ -10,7 +10,8 @@ const Project = ({ title, description, image, link }) => {
           <img  src={image} alt={title} className="project-pic" />
           <h3 className="projects-title">{title}</h3>
           <p className="project-details">{description}</p>
-          <button className=" checkbtn"><a href={link} target="_blank" rel="noopener noreferrer">Check it Out</a></button>
+          <button className=" checkbtn"><a href={link} target="_blank" rel="noopener noreferrer">GitHub</a></button>
+          <button className=" checkbtn"><a href={link} target="_blank" rel="noopener noreferrer">Live Site</a></button>
         </div>
       </div>
   );

@@ -44,7 +44,7 @@ ul {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--primary-color);
 }
 
@@ -203,6 +203,7 @@ nav ul li {
   /* margin-top: 1rem; */
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 
@@ -256,7 +257,7 @@ nav ul li {
   border-radius: 5px;
   padding: 10px;
   border: none;
-}
+  margin: 10px; }
 
 /* Contacts section */
 
@@ -506,6 +507,7 @@ footer {
   .projects {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .projects-container {
@@ -534,6 +536,7 @@ footer {
   .projects {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
   .project-container {
     width: 17.875rem;
