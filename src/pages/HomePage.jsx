@@ -20,37 +20,48 @@ const projects = [
     title: 'Marvel Versus',
     description: 'Our team created a new Marvel game! Players can form teams of their favorite characters to battle The Collector. ',
     image: marvelVsImg,
-    link: 'https://katherine-be.github.io/Marvel-Versus/',
+    link: 'https://github.com/Katherine-Be/Marvel-Versus',
+    liveLink: 'https://katherine-be.github.io/Marvel-Versus/',
   },
   {
     title: 'Weather Dashboard',
     description: 'I created a weather dashboard using OpenWeather API to display current weather and a 5-day forecast for any searched location.',
     image: weatherDashImg,
-    link: 'https://chrisvulpine.github.io/weather-dashboard/',
+    link: 'https://github.com/ChrisVulpine/weather-dashboard',
+    liveLink: 'https://chrisvulpine.github.io/weather-dashboard/',
+
   },
   {
     title: 'Work Day Scheduler',
     description: 'I created a calendar application that allows a user to schedule events from the hours of 9:00am-6:00pm.',
     image: schedulerImg,
-    link: 'https://chrisvulpine.github.io/work-day-scheduler/',
+    link: 'https://github.com/ChrisVulpine/work-day-scheduler',
+    liveLink: 'https://chrisvulpine.github.io/work-day-scheduler/',
+
   },
   {
     title: 'Employee Tracker',
     description: 'This CMS was created to help companies keep track of their entire employee base in a CLI application.',
     image: employeeImg,
     link: 'https://github.com/ChrisVulpine/employee-tracker',
+    liveLink: 'https://chrisvulpine.github.io/employee-tracker/',
+
   },
   {
     title: 'JavaScript Quiz',
     description: 'This is a timed JavaScript Quiz to learn the basics of JavaScript using basic HTML, CSS, and JS.',
     image: jsquizImg,
-    link: 'https://chrisvulpine.github.io/javascript-quiz/',
+    link: 'https://github.com/ChrisVulpine/javascript-quiz',
+    liveLink: 'https://chrisvulpine.github.io/javascript-quiz/',
+
   },
   {
     title: 'eCommerce Backend',
     description: 'This is a functioning backend for an e-commerce website. The backend takes a working Express.js API and configures it to use Sequelize in order to interact with a MySQL database. It includes routes for categories, products, and tags.',
     image: ecommImg,
     link: 'https://github.com/ChrisVulpine/e-commerce-backend',
+    liveLink: 'https://drive.google.com/file/d/1OF458cBHc5I6JjINqRJFjsu0cQ7PQnMa/view',
+
   },
 ];
 
@@ -92,6 +103,7 @@ export default function HomePage() {
             description={project.description}
             image={project.image}
             link={project.link}
+            liveLink={project.liveLink}
           />
         ))}
       </div>

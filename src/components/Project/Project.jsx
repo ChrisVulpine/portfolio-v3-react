@@ -1,7 +1,7 @@
 
 
 // eslint-disable-next-line react/prop-types
-const Project = ({ title, description, image, link }) => {
+const Project = ({ title, description, image, link, liveLink }) => {
   return (
     
       
@@ -11,7 +11,7 @@ const Project = ({ title, description, image, link }) => {
           <h3 className="projects-title">{title}</h3>
           <p className="project-details">{description}</p>
           <button className=" checkbtn"><a href={link} target="_blank" rel="noopener noreferrer">GitHub</a></button>
-          <button className=" checkbtn"><a href={link} target="_blank" rel="noopener noreferrer">Live Site</a></button>
+          <button className=" checkbtn"><a href={liveLink} target="_blank" rel="noopener noreferrer">Live Site</a></button>
         </div>
       </div>
   );

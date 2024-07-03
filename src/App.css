@@ -21,7 +21,7 @@
 } */
 
 
-
+/* 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -34,9 +34,10 @@
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+    
+  mation: logo-spin infinite 20s linear;
   }
-}
+} */
 
 
 .card {
