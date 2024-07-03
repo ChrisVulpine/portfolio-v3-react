@@ -60,6 +60,10 @@ body {
 
 }
 
+h2 {
+  padding: 10px;
+}
+
 /* Navbar */
 
 nav {
@@ -94,6 +98,19 @@ nav ul {
 
 nav ul li {
   font-family: var(--secondary-font);
+}
+
+.resbtn {
+  background-color:#0b2320;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid white;
+  margin: 10px; 
+}
+
+.resbtn:hover {
+  color:#3fb2bd;
+  border: 2px solid #3fb2bd;
 }
 
 .burger-menu {

@@ -4,6 +4,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import HomeIcon from '@mui/icons-material/Home';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 
 const Footer = () => {
@@ -24,6 +25,8 @@ return(
     <LinkedInIcon fontSize="large" /> </a>
     <a className='contact-link' href="https://github.com/chrisvulpine" target="_blank" rel="noopener noreferrer">
     <GitHubIcon fontSize="large" /> </a>
+    <a className='contact-link twitter-icon' href="https://x.com/ChrisLeach69977" target="_blank" rel="noopener noreferrer">
+    <TwitterIcon fontSize="large" /> </a>
 </div>
 
 <div className="bottom-text">

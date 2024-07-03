@@ -10,8 +10,8 @@ import ReactImg from '../assets/react.svg';
 export default function ResumePage() {
     return(
         <>
-        <h1>RESUME PAGE!!!</h1>
-        <a href="https://drive.google.com/file/d/1vZQBc5jUAcxtYmAGdZeAWKi2nOuuUJ2f/view?usp=sharing" className="nav-link">Resume Download</a>
+        <h2>My Skills and Resume</h2>
+        <button className="resbtn"><a href="https://drive.google.com/file/d/1vZQBc5jUAcxtYmAGdZeAWKi2nOuuUJ2f/view?usp=sharing" className="nav-link">View & Download My Resume</a></button>
 
         <section className="skills fade-in-section" id="skills">
       <h2 className="skill-header">My Top Skills</h2>
