@@ -9,10 +9,12 @@ import HomeIcon from '@mui/icons-material/Home';
 const Footer = () => {
 
     const location = useLocation();
+    const hiddenPaths = ['/contact', '/resume'];
+
 return(
 <footer className="footer">
 <div>
-    {location.pathname !== '/contact' &&(
+    {!hiddenPaths.includes(location.pathname) &&(
     <a className='contact-link' href="#about">
     <HomeIcon fontSize="large" /> </a>
     )}
