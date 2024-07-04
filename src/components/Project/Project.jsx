@@ -1,5 +1,3 @@
-
-
 // eslint-disable-next-line react/prop-types
 const Project = ({ title, description, image, link, liveLink }) => {
   return (

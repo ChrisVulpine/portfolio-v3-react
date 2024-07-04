@@ -8,6 +8,7 @@ import ContactPage from './pages/ContactPage.jsx';
 import ResumePage from './pages/ResumePage.jsx';
 import HomePage from './pages/HomePage';
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -29,9 +30,6 @@ const router = createBrowserRouter([
     ],
   },
 ]);
-
-
-
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,5 +1,3 @@
-// import { useState, useEffect } from 'react';
-// Bringing in the required component from 'react-router-dom' for linking between pages
 import { Link } from 'react-router-dom';
 import Project from '../components/Project/Project';
 
@@ -9,9 +7,7 @@ import schedulerImg from '../assets/img/scheduler.png';
 import employeeImg from '../assets/img/employee-tracker.png';
 import jsquizImg from '../assets/img/js-quiz.png';
 import ecommImg from '../assets/img/ecom-backend.png';
-import HeroImg from '../assets/img/4.png';
-
-
+import HeroImg from '../assets/img/hero-img.png';
 
 
 
@@ -94,8 +90,6 @@ export default function HomePage() {
     <h2 id="projects">Recent Projects</h2>
     <div className="projects" >
     
-    
-    
         {projects.map((project, index) => (
           <Project
             key={index}
@@ -111,16 +105,12 @@ export default function HomePage() {
       </section>
 
 
-
     <section className="contact fade-in-section" id="contact">
       <h2>Get In Touch With Me!</h2>
       <br>
       </br>
       <p> Use my <Link className="nav-link" to="/contact">Contact Form</Link> or the methods below!</p>
     </section>
-
-
-        
         </>
     )
 }

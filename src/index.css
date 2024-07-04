@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-
+/* ==================================================================================================== */
 /* Variables */
+/* ==================================================================================================== */
 
 :root {
   --font-family: "Poppins", sans-serf;
@@ -21,13 +22,10 @@
   --transition: 0.3s;
   --font-color-primary: #ffffff;
 }
-/* Variables end */
 
-html {
-  scroll-behavior: smooth;
-}
-
-/* CSS Resets */
+/* ==================================================================================================== */
+/* CSS Resets
+/* ==================================================================================================== */
 
 * {
   margin: 0;
@@ -57,14 +55,19 @@ body {
   font-family: var(--font-family);
   background-color: var(--bg-color);
   color: var(--font-color-primary);
-
 }
 
 h2 {
   padding: 10px;
 }
 
-/* Navbar */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ==================================================================================================== */
+/* Navbar
+/* ==================================================================================================== */
 
 nav {
   top: 0;
@@ -76,7 +79,6 @@ nav {
   padding: 1.5rem 3.5rem;
 }
   
-
 nav h1 {
   color: var(--primary-color);
 }
@@ -114,18 +116,9 @@ nav ul li {
   border: 2px solid #3fb2bd;
 }
 
-/* .burger-menu {
-  color: var(--primary-color);
-  font-size: 2rem;
-  border: 0;
-  background-color: transparent;
-  cursor: pointer;
-  display: none;
-  z-index: -100;
-  
-} */
-
-/* Hero section */
+/* ==================================================================================================== */
+/* Hero section
+/* ==================================================================================================== */
 
 .hero {
   display: flex;
@@ -171,7 +164,9 @@ nav ul li {
   padding: 0.3rem 0;
 }
 
-/* More about */
+/* ==================================================================================================== */
+/* More about
+/* ==================================================================================================== */
 
 .more-about {
   background-color: var(--bg-color);
@@ -188,7 +183,9 @@ nav ul li {
   padding: 0.4rem;
 }
 
-/* Skills section */
+/* ==================================================================================================== */
+/* Skills section
+/* ==================================================================================================== */
 
 .skills {
   max-width: 68.75rem;
@@ -210,7 +207,9 @@ nav ul li {
   height: 11.25rem;
 }
 
-/* Projects section */
+/* ==================================================================================================== */
+/* Projects section
+/* ==================================================================================================== */
 
 #projects {
   padding-top: 2rem;
@@ -219,11 +218,9 @@ nav ul li {
 .projects {
   background-color: var(--bg-color);
   padding: 32px 0;
-  /* margin-top: 1rem; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 
 .project-pic {
@@ -278,7 +275,9 @@ nav ul li {
   border: none;
   margin: 10px; }
 
-/* Contacts section */
+/* ==================================================================================================== */
+/* Contacts section
+/* ==================================================================================================== */
 
 .contact {
   margin-top: 2rem;
@@ -341,7 +340,9 @@ nav ul li {
   cursor: pointer;
 }
 
-/* Contact From NEW */
+/* ==================================================================================================== */
+/* Contact From NEW
+/* ==================================================================================================== */
 
 .contact-page-form {
   max-width: 600px;
@@ -388,12 +389,13 @@ button[type="submit"]:hover {
   background-color: #ec7804;
 }
 
-
 .bottom-text {
   padding-top: 50px;
 }
 
-/* Social buttons */
+/* ==================================================================================================== */
+/* Social buttons
+/* ==================================================================================================== */
 
 .contact-link {
   text-decoration: none;
@@ -427,7 +429,9 @@ button[type="submit"]:hover {
   height: 3rem;
 }
 
-/* Footer section */
+/* ==================================================================================================== */
+/* Footer section
+/* ==================================================================================================== */
 
 footer {
   background-color: var(--bg-color);
@@ -436,7 +440,9 @@ footer {
   margin: 2rem 0 0;
 }
 
-/* General (utilities) */
+/* ==================================================================================================== */
+/* General (utilities)
+/* ==================================================================================================== */
 
 .icon-card {
   background-color: #fff;
@@ -454,23 +460,14 @@ footer {
   margin: 10px;
 }
 
-/* Media queries for responsiveness */
+/* ==================================================================================================== */
+/* Media queries for responsiveness
+/* ==================================================================================================== */
 
 @media screen and (max-width: 1080px) {
   nav {
     padding: 1.5rem 1rem;
   }
-  /* nav ul {
-    position: fixed;
-    background-color: var(--bg-color);
-    flex-direction: column;
-    top: 86px;
-    left: 10%;
-    width: 80%;
-    text-align: center;
-    transform: translateX(120%);
-    transition: transform 0.5s ease-in;
-  } */
 
   nav ul li {
     margin: 8px;
@@ -482,17 +479,6 @@ footer {
     justify-content: center;
     
   }
-  /* .burger-menu {
-    display: block;
-  
-  } */
-
-  /* nav ul.show {
-    transform: translateX(0);
-    border: 2px solid rgb(255, 255, 255);
-    padding: 10px;
-    padding-bottom: 20px;
-  } */
 
   .hero {
     margin-top: -4rem;

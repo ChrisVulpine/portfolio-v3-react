@@ -1,4 +1,4 @@
-import { useLocation, Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import EmailIcon from '@mui/icons-material/Email';
